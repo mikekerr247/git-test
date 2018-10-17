@@ -25,5 +25,5 @@ ds = sc.parallelize(data, 8)
 
 # COMMAND ----------
 
-# show what the dataset looks like by collecting everything in the spark context
+# show what the dataset like by collecting everything in the spark context
 print ds.collect()
